@@ -1,7 +1,21 @@
-body{
+html,body{
 	background-color:#BBBBBB;
+	height: 100%;
 }
 
 #page{
 	padding-top:70px;
+	
+	min-height: 100%;
+	height: auto;
+
+	margin-bottom:-60px;
+	padding-bottom:60px;
+}
+
+#footer{
+	text-align:center;
+	height: 60px;
+	background-color: #aaaaaa;
+	padding:20px;
 }
