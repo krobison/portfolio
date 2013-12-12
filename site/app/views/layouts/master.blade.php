@@ -34,6 +34,25 @@
 						}else{
 							echo "<li><a href=\"".asset('/')."\">Home</a></li>";
 						}
+					?>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<?php
+								if ($page == "sites"){
+									echo "<li class=\"active\"><a href=\"".asset('sites')."\">Websites</a></li>";
+								}else{
+									echo "<li><a href=\"".asset('sites')."\">Websites</a></li>";
+								}
+								if ($page == "cPlusPlus"){
+									echo "<li class=\"active\"><a href=\"".asset('cPlusPlus')."\">C++</a></li>";
+								}else{
+									echo "<li><a href=\"".asset('cPlusPlus')."\">C++</a></li>";
+								}
+							?>
+						</ul>
+					</li>
+					<?php	
 						if ($page == "about"){
 							echo "<li class=\"active\"><a href=\"".asset('about')."\">About</a></li>";
 						}else{

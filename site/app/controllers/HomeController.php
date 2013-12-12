@@ -22,5 +22,13 @@ class HomeController extends BaseController {
 	public function showAbout(){
 		return View::make('about')->with("page","about");;
 	}
+	
+	public function showSites(){
+		return View::make('sites')->with("page","sites");;
+	}
+	
+	public function showCPlusPlus(){
+		return View::make('cPlusPlus')->with("page","cPlusPlus");;
+	}
 
 }
