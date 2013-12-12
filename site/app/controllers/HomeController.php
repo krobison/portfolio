@@ -25,11 +25,12 @@ class HomeController extends BaseController {
 	
 	public function showSites(){
 		$sites = DB::table('sites')->get();
-		return View::make('sites')->with("page","sites")->with('sites',$sites);;
+		return View::make('sites')->with("page","sites")->with('sites',$sites);
 	}
 	
 	public function showCPlusPlus(){
-		return View::make('cPlusPlus')->with("page","cPlusPlus");
+		$apps = DB::table('apps')->where('apptype', '=',"cPlusPlus")->get();
+		return View::make('cPlusPlus')->with("page","cPlusPlus")->with('apps',$apps);
 	}
 
 }

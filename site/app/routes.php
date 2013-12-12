@@ -11,9 +11,13 @@
 |
 */
 
+Route::pattern('id', '[0-9]+');
+
 Route::get('/', 'HomeController@showHome');
 
 Route::get('about', 'HomeController@showAbout');
 
 Route::get('sites', 'HomeController@showSites');
 Route::get('cPlusPlus', 'HomeController@showCPlusPlus');
+
+Route::get('apps/{id}', 'AppController@showApp');

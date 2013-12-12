@@ -40,4 +40,16 @@
 		<span class="glyphicon glyphicon-chevron-right"></span>
 	</a>
 </div>
+<br>
+
+<div class="page-header">
+	<h3>News</h3>
+</div>
+
+<h3><span class="label label-primary">12 December 2013</span></h3>
+<div class="well">
+	<span>
+		Today I created the portfolio site to showcase all of my programming goodies!
+	</span>
+</div>
 @endsection
