@@ -21,8 +21,8 @@
 			echo '<tr>';
 				echo '<td>'.'<a href="'.$site->url.'">'.($site->name).'</a></td>';
 				echo '<td>'.($site->description).'</td>';
-				echo '<td>'.($site->start_date).'</td>';
-				echo '<td>'.($site->last_date).'</td>';
+				echo '<td class="daterow">'.($site->start_date).'</td>';
+				echo '<td class="daterow">'.($site->last_date).'</td>';
 			echo '</tr>';
 			echo '</tbody>';
 		}

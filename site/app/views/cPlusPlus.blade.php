@@ -23,8 +23,8 @@
 				echo '<td>'.'<a href="'.asset("apps/".$app->id).'">'.($app->name).'</a></td>';
 				echo '<td>'.($app->description).'</td>';
 				echo '<td>'.($app->genre).'</td>';
-				echo '<td>'.($app->start_date).'</td>';
-				echo '<td>'.($app->last_date).'</td>';
+				echo '<td class="daterow">'.($app->start_date).'</td>';
+				echo '<td class="daterow">'.($app->last_date).'</td>';
 			echo '</tr>';
 			echo '</tbody>';
 		}
