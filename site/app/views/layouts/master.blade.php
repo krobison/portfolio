@@ -40,9 +40,9 @@
 						<ul class="dropdown-menu">
 							<?php
 								if ($page == "sites"){
-									echo "<li class=\"active\"><a href=\"".asset('sites')."\">Websites</a></li>";
+									echo "<li class=\"active\"><a href=\"".asset('sites')."\">Web Applications</a></li>";
 								}else{
-									echo "<li><a href=\"".asset('sites')."\">Websites</a></li>";
+									echo "<li><a href=\"".asset('sites')."\">Web Applications</a></li>";
 								}
 								if ($page == "cPlusPlus"){
 									echo "<li class=\"active\"><a href=\"".asset('cPlusPlus')."\">C++</a></li>";
