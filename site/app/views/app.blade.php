@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-    Home
+    Project Detail
 @endsection
 
 {{HTML::style('css/home.css')}}

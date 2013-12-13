@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-    Home
+    C++ Projects
 @endsection
 
 {{HTML::style('css/home.css')}}
