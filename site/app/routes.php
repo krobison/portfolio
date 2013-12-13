@@ -21,3 +21,5 @@ Route::get('sites', 'HomeController@showSites');
 Route::get('cPlusPlus', 'HomeController@showCPlusPlus');
 
 Route::get('apps/{id}', 'AppController@showApp');
+
+Route::get('snake','AppController@playSnake');

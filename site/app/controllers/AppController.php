@@ -11,5 +11,9 @@ class AppController extends BaseController {
 		}
 		return Redirect::to('/')->with('page',"home");;
     }
+	
+	public function playSnake(){
+		return View::make('snake')->with('page','snake');
+	}
 
 }

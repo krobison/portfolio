@@ -1,0 +1,165 @@
+body {
+    background: url(snakeback.png) no-repeat center center fixed; 
+    font-family:Trebuchet MS, Arial, Helvetica, sans-serif;
+    padding:0px;
+	width:100%;
+}
+
+h1, h2, h3, h4 {
+    margin:0px;   
+}
+
+h3{
+    border: 1px solid green;
+    padding:8px;
+}
+
+header, footer, section {
+    width:80%;
+    margin:0px auto;
+    text-align:center;
+    min-width:1289px;
+}
+
+header {
+    color:#FFFFFF;
+    padding:0px 0px;
+}
+
+
+section {
+    display:table;
+    /*padding:0px;
+    margin:0px;*/
+}
+
+label{
+    font-family:arial;
+}
+
+.leftSection, .middleSection, .rightSection {
+	display:table-cell;
+    /*vertical-align:top;*/
+ 	border:3px solid #225522;
+	padding:20px;
+	/*margin:0px;*/
+    text-align:center;
+}
+
+.leftSection, .rightSection { 
+	width:300px;
+	background-color:#99DD99;
+}
+
+.middleSection {
+    background-color:#99DD99;
+    max-width:640px;
+    min-width:640px;
+    width:640px;
+}
+
+.rightSection p{
+    font-size:20px;
+}
+
+#optionsHolder, #gameHolder, #highscoresHolder {
+    height:650px;
+    /*padding:0px;
+    margin:0px;*/
+}
+
+#canvasGame {
+	border:2px solid black;
+	background-color:white;
+}
+
+#canvasGame:not(:focus) {
+	border-color:#FF4444;
+}
+
+#canvasGame:focus {
+	border-color:#6666BB;
+}
+
+#scoreHolder {
+	height:32px;
+	font-weight:bold;
+	font-size:140%;
+	margin-bottom:14px;
+}
+
+#gameSpeed, #gameLevel{
+    display: block;
+    width:80%;
+    margin-top:8px;
+}
+
+#gameSpeed{
+    display:inline;
+    background: rgb(30, 90, 30);
+    height: 8px;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, 0.9), 0px 1px 1px 0px rgba(255, 255, 255, 0.13);
+    margin-bottom:48px;
+}
+
+
+#gameSpeed::-webkit-slider-thumb{
+    -webkit-appearance:none;  
+    width:24px;
+    height:16px;
+    border-radius: 4px;
+    border:1px solid #001100;
+    background: linear-gradient(to right, #AACCAA 20%,#88DD88 50%,#66FF77 100%);
+ }
+
+#gameLevel{
+    display:inline;
+    text-align:center;
+    border:2px ridge #99DD99;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 0;
+    background-color:#AAFFAA;
+    margin-bottom:42px;
+}
+
+
+.multipliers{
+    font-size:12px;
+    display:block;
+}
+
+span{
+    margin-right:16px;
+    color:#BB3322;
+}
+
+
+li {
+    margin-bottom:8px;
+}
+
+#Instructions{
+    text-align:left;
+}
+
+#logo{
+    position:relative;
+    -webkit-animation:logodance 2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes logodance{
+    0%    {left:0px;}
+    25%   {left:128px;}
+    50%   {left:0px;}
+    75%   {left:-128px;}
+    100% {left:0px;}
+}
+
+#page{
+	width:100%;
+	margin:auto;
+}
