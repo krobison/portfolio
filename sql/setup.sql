@@ -18,5 +18,7 @@ create table apps
   last_date date not null,
   description char(200),
   genre char(200),
-  apptype char(200)
+  apptype char(200),
+  youtube char(200),
+  details text
 );

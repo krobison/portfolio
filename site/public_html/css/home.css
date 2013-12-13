@@ -1,0 +1,35 @@
+#carouseldiv{
+	max-width:900px;
+	margin:auto;
+	border:3px #555555 solid;
+	border-radius:8px;
+}
+
+.tablediv{
+	width:90%;
+	margin:auto;
+	overflow-x:auto;
+}
+
+.table{
+	background-color:#EEEEEE;
+}
+
+
+
+.video-container {     
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}   
+.video-container iframe, 
+.video-container object, 
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
